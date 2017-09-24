@@ -122,7 +122,7 @@ Include following in app.component.html
 router-outlet => Acts as a placeholder that Angular dynamically fills based on the current router state
 
 <hr>
-I encountered the error such <strong>not a module</strong> in the console when I tried adding the components manually.
+I encountered the error such <strong>not a module</strong> in the console when I tried adding the components manually.<br>
 <strong>Solution:</strong> Try restartring the editor. Complie and run the code again. This happens when you add a new class outside from your editor or keep running your angular cli 'ng serve'. Actually your editor or 'ng serve' not able to find the newly created files.<br>
 <strong>Reference link: </strong> https://stackoverflow.com/questions/34629517/file-app-hero-ts-is-not-a-module-error-in-the-console-where-to-store-interfac
 
