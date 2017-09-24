@@ -41,6 +41,27 @@ and import AlertModule in imports[ ] of NgModule decorator
       ]
 ```
 
+<hr>
+While using AlertModule component form bootstrap, I encountered this issue => <br>
+<strong>No provider for alertconfig! - with angular-cli</strong>
+<br>
+<strong>Solution: </strong> Import AlertModule with with forRoot() in imports[ ] of NgModule() decorator in app.module.ts <br>
+
+```
+@NgModule({ 
+        ------
+        ------
+        
+        imports: [
+        ------
+        ------
+        AlertModule.forRoot()
+        ],
+        -------
+        -------
+})
+```
+Reference link: https://github.com/valor-software/ngx-bootstrap/issues/1365
 
 
 
