@@ -14,6 +14,7 @@ This metadata can be used to dynamically generate the filters.
 <li>Node.js</li>
 <li>TypeScript</li>
 <li>Angular CLI</li>
+<br>
 <img src="https://github.com/patilankita79/Angular4-PhotoGallery/blob/master/Screenshots/NodeJS_TS_CLI_INFO.png"/>
 
 <hr>
