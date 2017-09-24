@@ -15,5 +15,23 @@ This metadata can be used to dynamically generate the filters.
 <li>TypeScript</li>
 <li>Angular CLI</li>
 <img src="https://github.com/patilankita79/Angular4-PhotoGallery/blob/master/Screenshots/NodeJS_TS_CLI_INFO.png"/>
+<hr>
+<h3>Generate angular application using Angular CL</h3>
+<blockquote>$ng new PhotoGalleryApp</blockquote>
+<br>
+<h3>Bootstrap Installation Step</h3>
+<strong>Step 1:</strong>
+<blockquote>$npm install ngx-bootstrap bootstrap --save</blockquote>
+<br>
+<strong>Step 2:</strong><br>
+In app.module.ts, <br>
+
+```
+import {AlertModule} from 'ngx-bootstrap/ng2-bootstrap';
+```
+
+and import AlertModule in imports[] of NgModule decorator
+
+
 
 
