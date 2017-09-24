@@ -64,12 +64,18 @@ While using AlertModule component form bootstrap, I encountered this issue => <b
 Reference link: https://github.com/valor-software/ngx-bootstrap/issues/1365
 <hr>
 <h3>Create a navbar component inside app folder</h3>
-Google fonts are used in navbar component. Search for Lato and Open-sans
-Embed in index.html
+Google fonts are used in navbar component. Search for Lato and Open-sans<br>
+Embed the following line of code in index.html under <head> tag
 
 ```
 <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
 ```
+<hr>
+<h3>Create an image component that will be displayed inside the gallery</h3>
+
+Use service
+Service will be dealing with fetching the image from backend service. Serve static images
+Service will be injected in ImageDetailComponent's constructor
 
 
 
