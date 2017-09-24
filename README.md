@@ -62,6 +62,14 @@ While using AlertModule component form bootstrap, I encountered this issue => <b
 })
 ```
 Reference link: https://github.com/valor-software/ngx-bootstrap/issues/1365
+<hr>
+<h3>Create a navbar component inside app folder</h3>
+Google fonts are used in navbar component. Search for Lato and Open-sans
+Embed in index.html
+
+```
+<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
+```
 
 
 
