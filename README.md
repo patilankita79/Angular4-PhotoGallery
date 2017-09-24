@@ -1,5 +1,5 @@
 # Angular4-PhotoGallery Application
-A simple gallery application developed using Angular4.<br>
+A simple gallery application developed using Angular4 and a custom Pipe is used to build a filterable photo gallery. <br>
 We will have different set of categories and depending on the selection photo gallery will be filtered.<br>
 If we click on the image, we can view enlarged image with its caption.<br>
 Each image will have a metadata associated with it. <br><br>
@@ -104,8 +104,12 @@ import { appRoutes } from '../routes';
 ```
 
 
-Include
-Acts as a placeholder that Angular dynamically fills based on the current router state
+Include following in app.component.html
+```
+<router-outlet></router-outlet> 
+```
+
+router-outlet => Acts as a placeholder that Angular dynamically fills based on the current router state
 
 
 
