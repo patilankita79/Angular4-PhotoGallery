@@ -77,5 +77,36 @@ Use service
 Service will be dealing with fetching the image from backend service. Serve static images
 Service will be injected in ImageDetailComponent's constructor
 
+<br>
+Add ImageService to the list of providers in app.module.ts
+
+
+https://stackoverflow.com/questions/34629517/file-app-hero-ts-is-not-a-module-error-in-the-console-where-to-store-interfac
+
+
+Use pipes to filter images
+
+Image detail component will allow us to see an instance of an image. For this, routes are implemented. This will allow to change view in the application. Register the routes in app.module.ts
+
+```
+import { appRoutes } from '../routes';
+
+@NgModule({
+        -------
+        -------
+        ------
+        imports: [ 
+        ------
+        -----
+        RouterModule.forRoot(appRoutes)
+        -----
+]
+```
+
+
+Include
+Acts as a placeholder that Angular dynamically fills based on the current router state
+
+
 
 
