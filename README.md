@@ -15,6 +15,7 @@ This metadata can be used to dynamically generate the filters.
 <li>TypeScript</li>
 <li>Angular CLI</li>
 <img src="https://github.com/patilankita79/Angular4-PhotoGallery/blob/master/Screenshots/NodeJS_TS_CLI_INFO.png"/>
+
 <hr>
 <h3>Generate angular application using Angular CL</h3>
 <blockquote>$ng new PhotoGalleryApp</blockquote>
@@ -81,9 +82,8 @@ Service will be injected in ImageDetailComponent's constructor
 Add ImageService to the list of providers in app.module.ts
 
 
-https://stackoverflow.com/questions/34629517/file-app-hero-ts-is-not-a-module-error-in-the-console-where-to-store-interfac
 
-
+<br>
 Use pipes to filter images
 
 Image detail component will allow us to see an instance of an image. For this, routes are implemented. This will allow to change view in the application. Register the routes in app.module.ts
@@ -111,6 +111,10 @@ Include following in app.component.html
 
 router-outlet => Acts as a placeholder that Angular dynamically fills based on the current router state
 
+<hr>
+I encountered the error such <strong>not a module</strong> in the console when I tried adding the components manually.
+<strong>Solution:</strong> Try restartring the editor. Complie and run the code again. This happens when you add a new class outside from your editor or keep running your angular cli 'ng serve'. Actually your editor or 'ng serve' not able to find the newly created files.<br>
+<strong>Reference link: </strong> https://stackoverflow.com/questions/34629517/file-app-hero-ts-is-not-a-module-error-in-the-console-where-to-store-interfac
 
 
 
