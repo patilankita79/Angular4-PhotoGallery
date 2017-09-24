@@ -31,7 +31,8 @@ import {AlertModule} from 'ngx-bootstrap/ng2-bootstrap';
 ```
 
 and import AlertModule in imports[ ] of NgModule decorator
-
+<br>
+<strong></strong>
 
 
 
