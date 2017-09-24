@@ -17,6 +17,16 @@ This metadata can be used to dynamically generate the filters.
 <img src="https://github.com/patilankita79/Angular4-PhotoGallery/blob/master/Screenshots/NodeJS_TS_CLI_INFO.png"/>
 
 <hr>
+<h2>Screenshots</h2>
+<h3>All images in the photo gallery</h3>
+<img src="https://github.com/patilankita79/Angular4-PhotoGallery/blob/master/Screenshots/AllImages.png" />
+<h3>Filtering images by category </h3>
+<img src="https://github.com/patilankita79/Angular4-PhotoGallery/blob/master/Screenshots/ByBoats.png" />
+<img src="https://github.com/patilankita79/Angular4-PhotoGallery/blob/master/Screenshots/ByCamping.png" />
+<img src="https://github.com/patilankita79/Angular4-PhotoGallery/blob/master/Screenshots/ByLibrary.png" />
+<h3>When clicked on an image, its details are displayed</h3>
+<img src="https://github.com/patilankita79/Angular4-PhotoGallery/blob/master/Screenshots/ImageWithCaption.png" />
+<hr>
 <h3>Generate angular application using Angular CL</h3>
 <blockquote>$ng new PhotoGalleryApp</blockquote>
 <br>
