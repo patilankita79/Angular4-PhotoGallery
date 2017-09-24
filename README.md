@@ -32,7 +32,15 @@ import {AlertModule} from 'ngx-bootstrap/ng2-bootstrap';
 
 and import AlertModule in imports[ ] of NgModule decorator
 <br>
-<strong></strong>
+<strong>Include the following path under "styles" attribute in .angular-cli.json</strong>
+
+```
+"styles": [
+        "styles.css",
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+      ]
+```
+
 
 
 
