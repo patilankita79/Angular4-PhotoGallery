@@ -3,14 +3,15 @@ A simple gallery application developed using Angular4 and a custom Pipe is used 
 We will have different set of categories and depending on the selection photo gallery will be filtered.<br>
 If we click on the image, we can view enlarged image with its caption.<br>
 Each image will have a metadata associated with it. <br>
-Deployed the application on Heroku: https://photogalleryapp1.herokuapp.com/gallery <br>
+
 <br>
 <strong>Metadata</strong> of an image will include
 <li>Caption</li>
 <li>Category value</li>
 
 This metadata can be used to dynamically generate the filters.
-
+<hr>
+Application is deployed on Heroku: https://photogalleryapp1.herokuapp.com/gallery <br>
 <hr>
 <h4>Pre-requisites</h4>
 <li>Node.js</li>
